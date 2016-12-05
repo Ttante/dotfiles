@@ -21,4 +21,3 @@
   br = branch
   type = cat-file -t
   dump = cat-file -p
-
