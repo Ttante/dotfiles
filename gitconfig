@@ -17,7 +17,10 @@
 
 [alias]
   co = checkout
+  cos = checkout staging
   ci = commit -m 
   br = branch
   type = cat-file -t
   dump = cat-file -p
+  po = pull origin
+  pos = pull origin staging
