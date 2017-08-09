@@ -36,7 +36,7 @@ White='\e[0;37m'  # White
 PS1="\n${Yellow}[${txtrst} \h-${Green}\u${txtrst} \w\$(__git_ps1) ${Yellow}]${txtrst}\n $ "
 
 # Enable use of git in the shell environment/prompt
-. $HOME/.dotfiles/git-completion.bash
+m. $HOME/.dotfiles/git-completion.bash
 GIT_PS1_SHOWDIRTYSTATE=true
 
 # Aliases to make the CLI a little easier to handle
@@ -65,6 +65,9 @@ alias pac="sudo pacman"
 alias pak="sudo packer"
 alias start_pg="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias start_es="elasticsearch -d --config=/usr/local/opt/elasticsearch/config/elasticsearch.yml"
+alias tsw="tmux split-window"
+alias tswh="tmux split-window -h"
+alias cdr="cd ~/repos/ls/rails"
 alias top="htop"
 alias tf="terraform"
 alias yarn="yarn --ignore-engines"
